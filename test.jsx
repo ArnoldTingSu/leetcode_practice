@@ -74,18 +74,24 @@ var maximumWeatlth = function(accounts) {
     let richestWealth = 0;
     for(let i = 0; i < accounts.length; i++){
         let currentWealth = 0
-        for(let j = 0; i < )
+        for(let j = 0; i < accounts; i++){
+            currentWealth += accounts[i]
+            consolelog(currentz)
+        }
     }
 };
 
+maximumWeatlth(accounts)
 
 
-1. Create richest varible to hold the highest value.Create
-2. Loop through accounts array
-    2a. Create varible to hold current wealth
-    2b. Loop through inner array.
-        I. Add the value of each index to the current wealth.
-    c. compare current wealth vs highest stored wealth varible
-        I. if current > richest varible, set richest varible to current varible.
-3. Return richestWealth varible
+
+
+// 1. Create richest varible to hold the highest value.Create
+// 2. Loop through accounts array
+//     2a. Create varible to hold current wealth
+//     2b. Loop through inner array.
+//         I. Add the value of each index to the current wealth.
+//     c. compare current wealth vs highest stored wealth varible
+//         I. if current > richest varible, set richest varible to current varible.
+// 3. Return richestWealth varible
 
