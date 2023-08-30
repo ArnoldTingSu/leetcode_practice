@@ -9,6 +9,7 @@ let counter = 0;
         }
         counter++
     }
+    return counter
     console.log("total counter", counter)
 }
 
