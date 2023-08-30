@@ -76,7 +76,7 @@ var maximumWeatlth = function(accounts) {
         let currentWealth = 0
         for(let j = 0; i < accounts; i++){
             currentWealth += accounts[i]
-            consolelog(currentz)
+            consolelog(current)
         }
     }
 };
