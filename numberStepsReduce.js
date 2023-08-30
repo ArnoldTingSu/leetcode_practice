@@ -1,16 +1,17 @@
 
 function reduce(num){
-    let current = 0
-    for(i=1; num = 0; i++){
+let counter = 0;
+    while (num > 0){
         if(num % 2 == 0){
-            console.log("even")
-            current = num / 2
-        // } else if(num % 2 == 1){
-        //     current = num - 1
+            num = num / 2
+        } else {
+            num = num - 1
         }
+        counter++
     }
-    console.log(current)
-    return i
+    console.log("total counter", counter)
 }
 
-reduce(10)
+reduce(18)
+
+// 18 -> 9 -> 8 -> 4 -> 2 -> 1 -> 0
