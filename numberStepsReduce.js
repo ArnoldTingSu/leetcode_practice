@@ -9,10 +9,11 @@ let counter = 0;
         }
         counter++
     }
-    return counter
     console.log("total counter", counter)
+    return counter
 }
 
-reduce(18)
+reduce(1)
 
 // 18 -> 9 -> 8 -> 4 -> 2 -> 1 -> 0
+// 4 -> 2 -> 1 -> 0
